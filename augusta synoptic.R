@@ -768,6 +768,7 @@ plot(as.numeric(df21$site),df21$temp,ylab="Temperature (C)",xlab="Site", main="T
 plot(as.numeric(df21$site),df21$`DO%`,ylab="Dissolved Oxygen (%)",xlab="Site", main="DO %",col=df21$Colour,pch=16)
 plot(as.numeric(df21$site),df21$SPC,ylab="SPC",xlab="Site", main="Conductivity",col=df21$Colour,pch=16)
 
+# Plotting Concentration over Area for all Solutes
 plot(as.numeric(df21$area),df21$doc,ylab="Concentration (mg/L)",xlab="Area (sq. km)", main="DOC",col=df21$Colour,pch=16)
 plot(as.numeric(df21$area),df21$no3,ylab="Concentration (mg/L)",xlab="Area (sq. km)", main="NO3",col=df21$Colour,pch=16)
 plot(as.numeric(df21$area),df21$don,ylab="Concentration (mg/L)",xlab="Area (sq. km)", main="DON",col=df21$Colour,pch=16)
