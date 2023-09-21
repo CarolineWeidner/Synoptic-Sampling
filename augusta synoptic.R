@@ -643,6 +643,7 @@ ggplot(DOCwetland,
         legend.background=element_blank(),legend.key = element_blank())
 
 # Principal component analysis
+# load in R packages for PCA
 library(missMDA)
 library(FactoMineR)
 
